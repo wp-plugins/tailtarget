@@ -16,7 +16,7 @@ class Settings {
 	public $siteInfo;
 
 	function __construct(){	
-		$this->version 		= 1.0;
+		$this->version 		= 1.2;
 		$this->slug 		= 'tailtarget';
 		$this->owner 		= 'TailTarget DMP';
 		$this->ownerSite 	= 'http://www.tailtarget.com';

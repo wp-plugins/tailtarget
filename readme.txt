@@ -1,15 +1,15 @@
 === TailTarget DMP ===
 Contributors: wezoalves
-Tags: statistics, stats, analytics, dmp , data science, tail target, clusters, , trackyt
+Tags: statistics, stats, analytics, dmp , data science, tail target, clusters, trackyt, big data, content, marketing
 Requires at least: 3.0
 Tested up to: 4.0.1
 Stable tag: 1.0
 License: GPLv2
 
-Using TailTarget for WordPress plugin you will be able to better understand your web site audience.
+Using TailTarget DMP plugin you will be able to better understand your web site audience.
 
 == Description ==
-Using TailTarget plugin in your blog or website, you will have access to comprehensive information about the online behaviour of your visitors. Using this plugin, you will have access to TailTarget exclusive dashboard, where you can better understand your audience through useful statistics like gender, age, interests, and so on.
+Using TailTarget DMP plugin in your blog or website, you will have access to comprehensive information about the online behaviour of your visitors. Using this plugin, you will have access to TailTarget exclusive dashboard, where you can better understand your audience through useful statistics like gender, age, interests, and so on.
 
 == Installation ==
 In order to use this plugin, you first you need to create an account at TailTarget. Go to www.tailtarget.com, register your website, and then:
@@ -39,6 +39,9 @@ In order to get your TrackingID go to http://www.tailtarget.com and click on Sig
 
 = 1.0 =
 * Update Interface Settings
+
+= 1.2 =
+* Fix value saved 
 
 
 

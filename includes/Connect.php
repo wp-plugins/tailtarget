@@ -46,6 +46,9 @@ class Connect{
 			if($_REQUEST['action'] !== 'get_trackingid_data'){
 				return false;
 			}
+            
+            $settings = new \Library\TailTarget\Settings();
+            
 			$trackingId = getTrackingId();
 
 			if($trackingId){
