@@ -19,8 +19,7 @@ class Connect{
 				return false;
 			}
 			$trackingId = $_REQUEST['trackingId'];
-
-			$settings = new \Library\TailTarget\Settings();
+			$settings   = new \Library\TailTarget\Settings();
 
 			if($this->validateTrackingId($trackingId) === true){
 
@@ -47,8 +46,7 @@ class Connect{
 				return false;
 			}
             
-            $settings = new \Library\TailTarget\Settings();
-            
+            $settings   = new \Library\TailTarget\Settings();
 			$trackingId = getTrackingId();
 
 			if($trackingId){
