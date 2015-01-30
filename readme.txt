@@ -43,6 +43,8 @@ In order to get your TrackingID go to http://www.tailtarget.com and click on Sig
 = 1.2 =
 * Fix value saved 
 
+= 1.3 =
+* Update plugin name show header
 
 
 
