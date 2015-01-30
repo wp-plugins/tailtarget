@@ -22,7 +22,7 @@ class Scripts {
 		$settings = new \Library\TailTarget\Settings();
 		$tt_tracking_id = getTrackingId();
 			
-		if($tt_tracking_id === NULL){
+		if(!$tt_tracking_id){
 			echo 
 			'<!-- tailtarget.com plugin TailTarget for Wordpress v'. $settings->version .' -->'."\n".
 			'<meta property="tailtarget-tracking-verification" content="' . md5(get_option('siteurl')) . '" />'."\n".
