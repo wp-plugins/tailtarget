@@ -1,0 +1,97 @@
+# Copyright (C) 2014 Team TailTarget
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: TailTarget 1.0 - pt_BR\n"
+"POT-Creation-Date: 2015-01-05 19:03-0300\n"
+"PO-Revision-Date: 2015-01-05 19:04-0300\n"
+"Last-Translator: Weslley Alves <weslley@wezo.com.br>\n"
+"Language-Team: TailTarget <team@tailtarget.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_x;_t;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../includes/Connect.php:29
+msgid "Successfully saved"
+msgstr "Salvo com sucesso"
+
+#: ../includes/Connect.php:33
+msgid "Successfully updated"
+msgstr "Atualizado com sucesso"
+
+#: ../includes/Connect.php:37
+msgid "The TrackingID entered is not valid"
+msgstr "O Tracking ID digitado não é valido"
+
+#: ../includes/Connect.php:52
+msgid "Success"
+msgstr "Sucesso"
+
+#: ../includes/Connect.php:55
+msgid "Not Found"
+msgstr "Não encontrado"
+
+#: ../includes/Layout.php:16
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: ../includes/Layout.php:40
+msgid "Learn More"
+msgstr "Leia Mais"
+
+#: ../includes/Layout.php:50
+msgid "Tracking ID"
+msgstr "Tracking ID"
+
+#: ../includes/Layout.php:53
+msgid "Save"
+msgstr "Salvar"
+
+#: ../includes/Layout.php:61
+msgid "Would you like to understand your Audience Behavior?"
+msgstr "Quer conhecer sua audiência?"
+
+#: ../includes/Layout.php:63
+msgid ""
+"Tail Target is the right platform for publishers: we help portals, sites and "
+"blogs to find out Audience Segments over your media inventory in real time, "
+"making it possible to deliver the most relevant advertising and content."
+msgstr ""
+"A plataforma TailTarget para publishers – portais, sites e blogs – te ajuda "
+"a entender quem são seus usuários em tempo real e a entregar publicidade "
+"segmentada por targets."
+
+#: ../includes/Layout.php:66
+msgid "Building Audience Segments"
+msgstr "Qualificando a audiência"
+
+#: ../includes/Layout.php:68
+msgid ""
+"By implementing Tail’s Tag Manager into the web pages source code, you will "
+"instantly unleash a bunch of behavioral information about your Unique "
+"Visitors, classifying them throughout 78 different Audience Segments, such "
+"as gender, age, geo location, several interests and 18 different lifestyles."
+msgstr ""
+"Com uma única tag em seu site, é possível conhecer o gênero, faixa-etária, "
+"geo-localização, interesses e estilos de vida dos seus usuários em tempo "
+"real."
+
+#: ../includes/Layout.php:74
+msgid "Sign Up Now"
+msgstr "Registre-se Agora"
+
+#: ../includes/Scripts.php:18
+msgid "Tracking ID is required"
+msgstr "Tracking ID é necessário"
+
+#: ../includes/Tracking.php:96
+msgid "Settings"
+msgstr "Configurações"

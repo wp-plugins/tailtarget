@@ -1,25 +1,25 @@
 <?php
 /**
  * Class trackingTailTarget insert tracking code into header all pages of blog/site
- * @author Weslley Alves <weslley.tec@gmail.com>
- * @version 0.0.1
+ * @author Weslley Alves <weslley@wezo.com.br>
+ * @version 1.0
  */
 
 class trackingTailTarget{
 
 	public $urlRegister = 'http://www.tailtarget.com/';
 	public $urlBaseJs 	= 'd.tailtarget.com/base.js';
-	public $version		= '0.0.1';
+	public $version		= '1.0';
 	public $message		= null;
 	public $typeMessage = null;
 
 	public function __construct(){
 
-		if(is_admin()){
-			add_action('admin_menu', array($this, 'add_plugin_page'));
-			add_action('admin_init', array($this, 'page_init'));
-		}
-		add_action('wp_head', array($this, 'add_tailtarget_tags'),99);
+		//if(is_admin()){
+		//	add_action('admin_menu', array($this, 'add_plugin_page'));
+		//	add_action('admin_init', array($this, 'page_init'));
+		//}
+		//add_action('wp_head', array($this, 'add_tailtarget_tags'),99);
 	}
 
 	function getTrackingID() {
@@ -74,21 +74,16 @@ class trackingTailTarget{
 	}
 
 	public function create_admin_page(){ ?>
-	
 		<div class="wrap">
-			<?php screen_icon(); ?>
-			<h2>
-				<?php echo __('Tail Target Tracking')?>
-			</h2>
-			<form method="post" action="options.php">
+		<h2> Opções </h2> <br>
+		<div data-ng-include="template.url"></div>
+		<form method="post" action="options.php">
 				<?php
 				settings_fields('tailtarget_tracking_option_group');
 				do_settings_sections('tailtarget-tracking-setting-admin');
-				?>
-				<?php submit_button(); ?>
+				submit_button(); ?>
 			</form>
 		</div>
-		
 		<?php 
 	}
 
@@ -182,4 +177,9 @@ class trackingTailTarget{
 		<?php  
 	}
 
+}
+
+
+if ( class_exists('trackingTailTarget') ) {
+	$ttTracking = new trackingTailTarget();
 }

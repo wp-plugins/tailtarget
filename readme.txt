@@ -1,58 +1,51 @@
-=== Tail Target for Wordpress ===
+=== TailTarget DMP ===
 Contributors: wezoalves
-Tags: statistics, stats, analytics, tail target, clusters, tailtarget.com , views , clusters , target , trackyt , 
+Tags: statistics, stats, analytics, dmp , data science, tail target, clusters, , trackyt
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 1.0.0
+Tested up to: 4.0.1
+Stable tag: 1.0
 License: GPLv2
-Donate link: http://tailtarget.com
 
-
-Utilizando o plugin da Tail Target for Wordpress, você terá um entendimento qualitativo dos usuários que navegam pelo seu site.
-
+Using TailTarget for WordPress plugin you will be able to better understand your web site audience.
 
 == Description ==
-
-Utilizando o plugin da Tail Target em seu blog/site você terá entendimento do padrão de comportamento online dos usuários do seu site e não somente dados superficiais como sexo e idade, a Tail Target disponibiliza um dashboard personalizado para acompanhamento em tempo real da sua audiência.
-
-O que faz o plugin Tail Target for Wordpress
-
-* Inclui no header de todas as páginas do seu site uma tag para "trackeamento" da sua audiência
-
+Using TailTarget plugin in your blog or website, you will have access to comprehensive information about the online behaviour of your visitors. Using this plugin, you will have access to TailTarget exclusive dashboard, where you can better understand your audience through useful statistics like gender, age, interests, and so on.
 
 == Installation ==
-Para utilizar o plugin você deve ter uma conta na Tail Target, acesse: www.tailtarget.com
+In order to use this plugin, you first you need to create an account at TailTarget. Go to www.tailtarget.com, register your website, and then:
 
-1. Faça o download do plugin da Tail Target for Wordpress, clicando no botão de download nesta página e salvar o arquivo 'tailtarget.zip'
-2. Descompacte a pasta "tailtarget" dentro da pasta de plugins do wordpress, geralmente fica localizada em "wordpress/wp-content/plugins/"
-4. Ative o plugin Tail Target for Wordpress através da página "Gestão de Plugin" na interface de administração do WordPress.
-5. Acesse o menu Configurações e no sub-menu acesse Tail Target 
-6. No campo Tracking ID, insera o codigo do seu site cadastrado na Tail Target
-7. Clique em Salvar Alterações
-8. Pronto !!!
-9. Você terá um entendimento qualitativo dos usuários que navegam em seu site.
-
+1. Download the TailTarget DMP plugin by clicking in the donwload button on this page and save the \'tailtarget.zip\' file
+2. Unzip the file in a \"tailtarget\" folder in the plugins folder at wordpress. Usually, the path for this folder is \"wordpress/wp-content/plugins/\"
+3. Go to Plugins screen and find the TailTarget DMP plugin in the list.
+4. Click Activate Plugin to activate it
+5. Click on TailTarget DMP on menu
+6. In the Tracking ID field type your website identification code that was sent to you when you created your TailTarget account
+7. Save your changes
+8. And you are done! Now you can better understand your visitors.
 
 == Frequently Asked Questions ==
+How can I get a TrackingID?
 
-= Como obtenho o TrackingID =
-
-Para obter o TrackingID acesse http://www.tailtarget.com e clique Registrar, preencha o cadastro insira o endereço do seu site e obtenha o TrackingID
-
+In order to get your TrackingID go to http://www.tailtarget.com and click on Sign In. Then, provide the required information and you will receive a TrackingID for your website.
 
 == Screenshots ==
-
-11. Dashboard.
-22. Clusters.
-33. Configuração Tag.
-
+1. Plugin Settings
+2. Dashboard TailTarget
+3. Dashboard TailTarget
 
 == Changelog ==
-
 = 0.0.1 =
-* Release Inicial
+* Initial release
+
+= 1.0 =
+* Update Interface Settings
+
+
+
 
 == Upgrade Notice ==
-
 = 0.0.1 =
-* Release Inicial
+* Initial release
+
+= 1.0 =
+* Update Interface Settings
